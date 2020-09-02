@@ -1,0 +1,83 @@
+PODS:
+  - IBMWatsonAssistantV1 (0.36.0):
+    - IBMWatsonRestKit (~> 1.3.0)
+  - IBMWatsonAssistantV2 (0.36.0):
+    - IBMWatsonRestKit (~> 1.3.0)
+  - IBMWatsonConversationV1 (0.36.0):
+    - IBMWatsonRestKit (~> 1.3.0)
+  - IBMWatsonDiscoveryV1 (0.36.0):
+    - IBMWatsonRestKit (~> 1.3.0)
+  - IBMWatsonLanguageTranslatorV3 (0.36.0):
+    - IBMWatsonRestKit (~> 1.3.0)
+  - IBMWatsonNaturalLanguageClassifierV1 (0.36.0):
+    - IBMWatsonRestKit (~> 1.3.0)
+  - IBMWatsonNaturalLanguageUnderstandingV1 (0.36.0):
+    - IBMWatsonRestKit (~> 1.3.0)
+  - IBMWatsonPersonalityInsightsV3 (0.36.0):
+    - IBMWatsonRestKit (~> 1.3.0)
+  - IBMWatsonRestKit (1.3.0)
+  - IBMWatsonSpeechToTextV1 (0.36.0):
+    - IBMWatsonRestKit (~> 1.3.0)
+    - Starscream (= 3.0.5)
+  - IBMWatsonTextToSpeechV1 (0.36.0):
+    - IBMWatsonRestKit (~> 1.3.0)
+  - IBMWatsonToneAnalyzerV3 (0.36.0):
+    - IBMWatsonRestKit (~> 1.3.0)
+  - IBMWatsonVisualRecognitionV3 (0.36.0):
+    - IBMWatsonRestKit (~> 1.3.0)
+  - Starscream (3.0.5)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - IBMWatsonAssistantV1 (~> 0.36.0)
+  - IBMWatsonAssistantV2 (~> 0.36.0)
+  - IBMWatsonConversationV1 (~> 0.36.0)
+  - IBMWatsonDiscoveryV1 (~> 0.36.0)
+  - IBMWatsonLanguageTranslatorV3 (~> 0.36.0)
+  - IBMWatsonNaturalLanguageClassifierV1 (~> 0.36.0)
+  - IBMWatsonNaturalLanguageUnderstandingV1 (~> 0.36.0)
+  - IBMWatsonPersonalityInsightsV3 (~> 0.36.0)
+  - IBMWatsonSpeechToTextV1 (~> 0.36.0)
+  - IBMWatsonTextToSpeechV1 (~> 0.36.0)
+  - IBMWatsonToneAnalyzerV3 (~> 0.36.0)
+  - IBMWatsonVisualRecognitionV3 (~> 0.36.0)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IBMWatsonAssistantV1
+    - IBMWatsonAssistantV2
+    - IBMWatsonConversationV1
+    - IBMWatsonDiscoveryV1
+    - IBMWatsonLanguageTranslatorV3
+    - IBMWatsonNaturalLanguageClassifierV1
+    - IBMWatsonNaturalLanguageUnderstandingV1
+    - IBMWatsonPersonalityInsightsV3
+    - IBMWatsonRestKit
+    - IBMWatsonSpeechToTextV1
+    - IBMWatsonTextToSpeechV1
+    - IBMWatsonToneAnalyzerV3
+    - IBMWatsonVisualRecognitionV3
+    - Starscream
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  IBMWatsonAssistantV1: ee92155c10579c133b0ea5980068244fbd5242a5
+  IBMWatsonAssistantV2: fcc42723e0437942127414e5d0a28e0fbb333939
+  IBMWatsonConversationV1: 99017287f30399336ac8ae187ce12c43f19d4e55
+  IBMWatsonDiscoveryV1: aa70d6f6960de2f385986f3864f446336776a109
+  IBMWatsonLanguageTranslatorV3: 02ab7bdd55d2ff68d48cbf34f4bf3f4aeed7f1f1
+  IBMWatsonNaturalLanguageClassifierV1: adbbd04947cd9e65e6d005c583ec82ca1d69b775
+  IBMWatsonNaturalLanguageUnderstandingV1: 08e7685284beb9a6448b86de5c61510b79f5d647
+  IBMWatsonPersonalityInsightsV3: d9d99516b1dd1cb1ad4f88ecc4dbe9e6fe771df6
+  IBMWatsonRestKit: 3fed988adb397f6065316327440d8ab57a33b225
+  IBMWatsonSpeechToTextV1: f177315c32851fe4311977886c03cbd0d3d60e2a
+  IBMWatsonTextToSpeechV1: 47a28467aab962370bd7b9cb553d2500a688f49a
+  IBMWatsonToneAnalyzerV3: 1577c35c0a089130b71fce644421449ce229cda4
+  IBMWatsonVisualRecognitionV3: ea70bc2786b673c4749daad7bdf099c799fe3963
+  Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: ecb425eecf755ab46e68531c777c09e342c989c7
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1F0015218094A100332C5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F0014218094A100332C5B /* AppDelegate.swift */; };
+		1A1F0017218094A100332C5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F0016218094A100332C5B /* ViewController.swift */; };
+		1A1F001A218094A100332C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1F0018218094A100332C5B /* Main.storyboard */; };
+		1A1F001C218094A200332C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1F001B218094A200332C5B /* Assets.xcassets */; };
+		1A1F001F218094A200332C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1F001D218094A200332C5B /* LaunchScreen.storyboard */; };
+		8627DE938B6F316D9A9EB4F0 /* Pods_SeeFoodWatson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0990D3F609648E053089B892 /* Pods_SeeFoodWatson.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0990D3F609648E053089B892 /* Pods_SeeFoodWatson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeeFoodWatson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1F0011218094A100332C5B /* SeeFoodWatson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFoodWatson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1F0014218094A100332C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A1F0016218094A100332C5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A1F0019218094A100332C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A1F001B218094A200332C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A1F001E218094A200332C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A1F0020218094A200332C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2997414C7C1B8105FA6FCDEA /* Pods-SeeFoodWatson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeFoodWatson.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeeFoodWatson/Pods-SeeFoodWatson.debug.xcconfig"; sourceTree = "<group>"; };
+		EF6D715F7751B95A23C6A169 /* Pods-SeeFoodWatson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeFoodWatson.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeFoodWatson/Pods-SeeFoodWatson.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A1F000E218094A100332C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8627DE938B6F316D9A9EB4F0 /* Pods_SeeFoodWatson.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1F0008218094A100332C5B = {
+			isa = PBXGroup;
+			children = (
+				1A1F0013218094A100332C5B /* SeeFoodWatson */,
+				1A1F0012218094A100332C5B /* Products */,
+				D40BA1E9DE0F25DD813F4418 /* Pods */,
+				54491E07129C75C2DBFCAE07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A1F0012218094A100332C5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A1F0011218094A100332C5B /* SeeFoodWatson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A1F0013218094A100332C5B /* SeeFoodWatson */ = {
+			isa = PBXGroup;
+			children = (
+				1A1F0014218094A100332C5B /* AppDelegate.swift */,
+				1A1F0016218094A100332C5B /* ViewController.swift */,
+				1A1F0018218094A100332C5B /* Main.storyboard */,
+				1A1F001B218094A200332C5B /* Assets.xcassets */,
+				1A1F001D218094A200332C5B /* LaunchScreen.storyboard */,
+				1A1F0020218094A200332C5B /* Info.plist */,
+			);
+			path = SeeFoodWatson;
+			sourceTree = "<group>";
+		};
+		54491E07129C75C2DBFCAE07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0990D3F609648E053089B892 /* Pods_SeeFoodWatson.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D40BA1E9DE0F25DD813F4418 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2997414C7C1B8105FA6FCDEA /* Pods-SeeFoodWatson.debug.xcconfig */,
+				EF6D715F7751B95A23C6A169 /* Pods-SeeFoodWatson.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A1F0010218094A100332C5B /* SeeFoodWatson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1F0023218094A200332C5B /* Build configuration list for PBXNativeTarget "SeeFoodWatson" */;
+			buildPhases = (
+				2493794CCA7A49325750F6AA /* [CP] Check Pods Manifest.lock */,
+				1A1F000D218094A100332C5B /* Sources */,
+				1A1F000E218094A100332C5B /* Frameworks */,
+				1A1F000F218094A100332C5B /* Resources */,
+				2487CA8D1B5CBA9700B8CF16 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeeFoodWatson;
+			productName = SeeFoodWatson;
+			productReference = 1A1F0011218094A100332C5B /* SeeFoodWatson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A1F0009218094A100332C5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Pierre-Luc Bruyere";
+				TargetAttributes = {
+					1A1F0010218094A100332C5B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 1A1F000C218094A100332C5B /* Build configuration list for PBXProject "SeeFoodWatson" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A1F0008218094A100332C5B;
+			productRefGroup = 1A1F0012218094A100332C5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A1F0010218094A100332C5B /* SeeFoodWatson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A1F000F218094A100332C5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1F001F218094A200332C5B /* LaunchScreen.storyboard in Resources */,
+				1A1F001C218094A200332C5B /* Assets.xcassets in Resources */,
+				1A1F001A218094A100332C5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2487CA8D1B5CBA9700B8CF16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SeeFoodWatson/Pods-SeeFoodWatson-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonAssistantV1/Assistant.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonAssistantV2/Assistant.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonConversationV1/Conversation.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonDiscoveryV1/Discovery.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonLanguageTranslatorV3/LanguageTranslator.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonNaturalLanguageClassifierV1/NaturalLanguageClassifier.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonNaturalLanguageUnderstandingV1/NaturalLanguageUnderstanding.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonPersonalityInsightsV3/PersonalityInsights.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonRestKit/RestKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonSpeechToTextV1/SpeechToText.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonTextToSpeechV1/TextToSpeech.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonToneAnalyzerV3/ToneAnalyzer.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonVisualRecognitionV3/VisualRecognition.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Assistant.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Conversation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Discovery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LanguageTranslator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NaturalLanguageClassifier.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NaturalLanguageUnderstanding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PersonalityInsights.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RestKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpeechToText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextToSpeech.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ToneAnalyzer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VisualRecognition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeFoodWatson/Pods-SeeFoodWatson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2493794CCA7A49325750F6AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeeFoodWatson-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A1F000D218094A100332C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1F0017218094A100332C5B /* ViewController.swift in Sources */,
+				1A1F0015218094A100332C5B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A1F0018218094A100332C5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A1F0019218094A100332C5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A1F001D218094A200332C5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A1F001E218094A200332C5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A1F0021218094A200332C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A1F0022218094A200332C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A1F0024218094A200332C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2997414C7C1B8105FA6FCDEA /* Pods-SeeFoodWatson.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJRF6X3R7V;
+				INFOPLIST_FILE = SeeFoodWatson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heatherprod.SeeFoodWatson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A1F0025218094A200332C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6D715F7751B95A23C6A169 /* Pods-SeeFoodWatson.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJRF6X3R7V;
+				INFOPLIST_FILE = SeeFoodWatson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heatherprod.SeeFoodWatson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A1F000C218094A100332C5B /* Build configuration list for PBXProject "SeeFoodWatson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1F0021218094A200332C5B /* Debug */,
+				1A1F0022218094A200332C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A1F0023218094A200332C5B /* Build configuration list for PBXNativeTarget "SeeFoodWatson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1F0024218094A200332C5B /* Debug */,
+				1A1F0025218094A200332C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A1F0009218094A100332C5B /* Project object */;
+}
